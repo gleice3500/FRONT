@@ -60,7 +60,7 @@ function menuOperacoes(){
                   console.log("Operação Inválida")
             break;
     }//fim swith
-    console.log ("Resultado: +resultado"
+    console.log ("Resultado: +resultado");
 }
 
 // execução do programa
