@@ -29,11 +29,11 @@ function menuOperacoes(){
     console.log("3, multiplicação");
     console.log("4, Divisão");
     console.log("================");
-    led operacao = pronpt ("Escolha a Operação Desejada: " );
+    let operacao = prompt ("Escolha a Operação Desejada: " );
     //entrada dos nºs
-    led numero1 =  Number (prompt("digite nº1: "));
-    led numero2=  Number (prompt("digite nº2: "));
-    led resultado; 
+    let numero1 =  Number (prompt("digite nº1: "));
+    let numero2=  Number (prompt("digite nº2: "));
+    let resultado; 
     //condicional 
     switch (operacao){
         case "1"
