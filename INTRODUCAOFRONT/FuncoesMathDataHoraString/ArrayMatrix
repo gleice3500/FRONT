@@ -1,0 +1,53 @@
+// array and matrix (vetores e matrize)
+// declarar uma array => []
+let array = []
+let numberArray = [1,2,3,4,5,6,7,8,9];
+let textArray = ["sapato","bola", "caixa"]
+let mixArray = [1, "nome", true];
+
+//como Para Acessar os elementos (indecer)
+console .log(textArray[1]); //indice
+console.log(numberArray[8]); // 9
+
+//contar elementos de uma Array ()
+console.log(numberArray.length);//9
+console.log(textArray.length);//3
+
+// Adicionar elementos em um Array
+//no começo (0)
+textArray.unshift("cachorro");
+console.log(textArray);
+//no final - push()
+textArray.push("casa");
+console.log(textArray);
+
+//Alterar o valor de um elemeto  do Array
+textArray[2] = "carro";
+console.log(textArray);
+
+//remover Elementos do Array 
+//do começo - shift
+//textarray.shift()
+console.log(textArray)
+//do meio - suplic(indice,quantoidade)
+console.log (textArray);
+//di fim
+textArray.pop();//carro
+console.log(textArray);
+
+// percorrer um array
+for(let i=0; i<numberArray.length;i++);{
+console.log("Nomero["+i+"]="+numberArray[i]);
+
+}
+
+//forEach
+numberArray.forEacha(element =>{
+console.log(element)
+
+})
+
+//indexof=>Retornar o indice do elemento
+console.log(mixArray.indexOf("Nome"));
+console.log
+
