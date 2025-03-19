@@ -5,10 +5,10 @@
 var precoProduto =150;
 
 if (precoProduto100){
-    console.log("Valor a Pagar:" +(precoProd
+    console.log("Valor a Pagar:" +(precoProd))
 
 }else{
-    console.log("Valor a pagar:" +(precoProd
+    console.log("Valor a pagar:" +(precoProd))
 }
 
 //Switch case 
@@ -53,12 +53,12 @@ while(continuar){
      
     // function return
     function ola(nome){ //parâmetro
-        return "olá", "+nome+" . seja Bem-vindo!!
+        return "olá", "+nome+" . //seja Bem-vindo!!
     }
     console.log(ola("Turma A"));
       
     //function void
     function hello(nome){
-        console.log("hello,"+nome+")
+        console.log("hello","+nome+")
     }
     hello("TurmaA")

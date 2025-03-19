@@ -19,3 +19,5 @@ let data2 = new Data (2025-12-17)
 let diferenca = data2 - data1;
 
 console.log(diferenca/(1000*60*60*24));
+
+//ar
